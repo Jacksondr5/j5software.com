@@ -23,8 +23,8 @@ jobs:
         with:
           run_install: true
 
-      - name: Typecheck
-        run: pnpm typecheck
+      - name: Build
+        run: pnpm build
 
       - name: Lint
         run: pnpm lint
