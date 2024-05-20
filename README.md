@@ -6,6 +6,7 @@
 
 - [ ] Deploy to vercel
 - [ ] Setup PRs
+- [ ] Add prettier tailwind plugin
 - [ ] Analytics (posthog)
 - [ ] Create wireframes
 - [ ] Decide on "design system"
