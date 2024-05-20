@@ -4,12 +4,13 @@
 
 ## General
 
-- [ ] Deploy to vercel
-- [ ] Setup PRs
+- [x] Deploy to vercel
+- [x] Setup PRs
 - [ ] Analytics (posthog)
 - [ ] Create wireframes
 - [ ] Decide on "design system"
 - [ ] Figure out how to link everything together so people are brought to other areas of the site
+- [ ] Redirect j5software.com to the deployed Vercel site (go live)
 
 ## Blog
 
