@@ -7,6 +7,8 @@
 - [x] Deploy to vercel
 - [x] Setup PRs
 - [ ] Analytics (posthog)
+  - [x] Install and configure posthog
+  - [ ] Configure analytics system once there's an actual site to analyze
 - [ ] Create wireframes
 - [ ] Decide on "design system"
 - [ ] Figure out how to link everything together so people are brought to other areas of the site
