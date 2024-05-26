@@ -22,9 +22,7 @@ export default function RootLayout({
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
         <TRPCReactProvider>
-          <CSPostHogProvider>
-            <div className="ml-2">{children}</div>
-          </CSPostHogProvider>
+          <CSPostHogProvider>{children}</CSPostHogProvider>
         </TRPCReactProvider>
         <SpeedInsights />
       </body>
