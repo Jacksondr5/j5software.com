@@ -5,6 +5,11 @@
     {
       "groupName": "all packages",
       "matchPackagePatterns": ["*"]
+    },
+    {
+      "groupName": "linters",
+      "dependencyDashboardApproval": true,
+      "extends": ["packages:linters"]
     }
   ],
   "schedule": ["on friday"]
