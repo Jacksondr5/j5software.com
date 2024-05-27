@@ -3,7 +3,6 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import { TRPCReactProvider } from "~/trpc/react";
 import { CSPostHogProvider } from "./providers";
 import type { Metadata } from "next";
 
@@ -21,9 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <TRPCReactProvider>
-          <CSPostHogProvider>{children}</CSPostHogProvider>
-        </TRPCReactProvider>
+        <CSPostHogProvider>{children}</CSPostHogProvider>
         <SpeedInsights />
       </body>
     </html>
