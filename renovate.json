@@ -12,5 +12,6 @@
       "extends": ["packages:linters"]
     }
   ],
+  "rangeStrategy": "bump",
   "schedule": ["on friday"]
 }
