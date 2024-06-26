@@ -1,5 +1,7 @@
 # General Ideas
 
+- How much should I shout out other people? Obviously its my website, but much of what I've done is because of the people I've worked with. How do I do that in a way that balances the focus I want to keep on my work with giving them credit in a meaningful way? Should I link to their site/LinkedIn? Should I have a "thanks" section at the bottom of the page? Should I have a dedicated shout out page?
+
 ## Design
 
 - I'm probably going to want to rely heavily on AI art generation for cases where I don't have a good image to use. But, it shouldn't be a jarring difference between that and my real photos. Need to figure out how to do that.
