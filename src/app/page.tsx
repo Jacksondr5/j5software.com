@@ -6,7 +6,13 @@ export default async function Home() {
       <h1 className="text-6xl font-bold">Welcome to J5 Software</h1>
       <p>Website build in progress</p>
       <p>
-        Visit our{" "}
+        Check out my{" "}
+        <Link className="underline" href="/projects">
+          projects
+        </Link>
+      </p>
+      <p>
+        Visit my{" "}
         <Link className="underline" href="/blog">
           blog
         </Link>

@@ -18,6 +18,9 @@ export default function Page() {
             Homelab Hardware
           </BlogLink>
           <BlogLink href="/blog/projects/homelab-iac">Homelab IaC</BlogLink>
+          <BlogLink href="/blog/projects/component-library">
+            Component Library
+          </BlogLink>
         </div>
       </div>
     </>
