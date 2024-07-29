@@ -9,6 +9,11 @@
     {
       "groupName": "linters",
       "extends": ["packages:linters"]
+    },
+    {
+      "automerge": true,
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
   ],
   "rangeStrategy": "bump",
