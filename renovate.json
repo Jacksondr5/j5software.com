@@ -3,7 +3,7 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "groupName": "all packages!",
+      "groupName": "all packages",
       "matchPackagePatterns": ["*"]
     },
     {
