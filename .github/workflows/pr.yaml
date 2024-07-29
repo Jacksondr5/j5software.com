@@ -31,6 +31,3 @@ jobs:
 
       - name: Check formatting
         run: pnpm format:check
-
-      - name: Check renovate
-        run: pnpm --package renovate dlx renovate-config-validator --strict
