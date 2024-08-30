@@ -2,7 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "packageRules": [
-    { "groupName": "all packages", "matchPackageNames": ["*"] },
+    {
+      "automerge": true,
+      "groupName": "all packages",
+      "matchPackageNames": ["*"]
+    },
     {
       "groupName": "linters",
       "dependencyDashboardApproval": true,

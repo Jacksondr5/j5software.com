@@ -5,6 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { CSPostHogProvider } from "./providers";
 import type { Metadata } from "next";
+import { cn } from "~/lib/utils";
 
 export const metadata: Metadata = {
   title: "J5 Software",
@@ -19,7 +20,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body>
+      <body
+        className={cn(
+          "bg-green-2 min-h-screen font-sans antialiased",
+          GeistSans.variable,
+        )}
+      >
         <CSPostHogProvider>{children}</CSPostHogProvider>
         <SpeedInsights />
       </body>
